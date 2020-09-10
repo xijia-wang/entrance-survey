@@ -1,0 +1,21 @@
+---
+title: "Entrance survery super funk"
+output: html_document
+---
+
+```{r}
+DF <- read.csv("hudk4050-entrance-survey.csv",header = TRUE)
+mode(DF$program)
+```
+
+```{r}
+7+8
+x <-8/12
+```
+
+```{r}
+mean(DF$UTC)
+utc.ms <- DF$UTC * DF$math.stat
+utc.ms
+```
+
